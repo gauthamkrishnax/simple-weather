@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+
+
+
+@tailwind utilities;
+
+.textform {
+    @apply px-4  text-gray-700 text-xl text-center transition tracking-widest duration-300 w-full md:w-4/12 h-10 border-2 hover:shadow-xl  hover:bg-gray-200 outline-none focus:bg-gray-200 focus:shadow-xl focus:border-gray-400 ;
+}
